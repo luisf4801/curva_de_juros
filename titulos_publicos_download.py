@@ -10,7 +10,7 @@ import os
 
 # 1. Defina o caminho exato da pasta de destino
 # Usamos o prefixo 'r' antes das aspas para que o Python trate as barras invertidas corretamente
-diretorio_destino = r'C:\Users\Luis\Desktop\tese\curva de juros KR\database'
+diretorio_destino = "C:\"# mude para o seu dir
 
 # 2. Verifique se a pasta existe; se não existir, o Python irá criá-la
 if not os.path.exists(diretorio_destino):
@@ -47,4 +47,5 @@ for titulo in ["LFT","LTN", "NTN-B","NTN-B_Principal"]:
             print("Download concluído com sucesso!")
         
         except requests.exceptions.RequestException as e:
+
             print(f"Erro ao baixar o arquivo: {e}")
