@@ -2,7 +2,13 @@
 """
 Created on Wed Jan 21 15:09:45 2026
 
-@author: Luis
+# FGV - Fundacao Getúlio Vargas
+# EESP - Escola de Economia São Paulo
+# Mestrado Academico em Economia 
+@author: Luis felipe porro
+contato: luisfelipe.porro@gmail.com
+
+
 """
 
 import requests
@@ -49,3 +55,4 @@ for titulo in ["LFT","LTN", "NTN-B","NTN-B_Principal"]:
         except requests.exceptions.RequestException as e:
 
             print(f"Erro ao baixar o arquivo: {e}")
+
