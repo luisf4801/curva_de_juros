@@ -16,7 +16,7 @@ import re
 # 1. Defina o caminho exato da pasta de destino
 # Usamos o prefixo 'r' antes das aspas para que o Python trate as barras invertidas corretamente
 
-dir_base=r'C:\Users\Luis\Desktop\tese\curva de juros KR'
+dir_base=r'C:\Users'
 diretorio_destino=dir_base+"\database"
 
 # 2. Verifique se a pasta existe; se não existir, o Python irá criá-la
@@ -138,3 +138,4 @@ for nome_arquivo in arquivos:
         print(f"Erro ao abrir {nome_arquivo}: {e}")
 
 print("\n--- Todos os arquivos foram gerados com as abas originais ---")
+
